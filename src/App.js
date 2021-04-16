@@ -7,6 +7,8 @@ import AuthTest from './pages/AuthTest';
 import FlightInput from './pages/FlightInput';
 import NewsSearch from './pages/NewsSearch';
 import SignupInsure from './pages/SignupInsure';
+import SignupResult from './pages/SignupResult';
+
 
 
 function App() {
@@ -25,7 +27,10 @@ function App() {
         <Route path={"/authTest"} component={AuthTest}></Route>
         {/* practice */}
 
+        <Route path={"/inputflight"} component={FlightInput}></Route>
         <Route path={"/signupInsure"} component={SignupInsure}></Route>
+        <Route path={"/signupResult"} component={SignupResult}></Route>
+
       </Switch>
     </BrowserRouter>
     </>
