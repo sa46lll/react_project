@@ -52,7 +52,7 @@ const FlightInput = () => {
           setdepartureDate(value);
          }
         if(name === 'inboundDate'){
-          setinboundDate(value);
+            setinboundDate(value);
         }
 
     }
